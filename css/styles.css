@@ -1245,10 +1245,11 @@ img {
   border: 1px solid var(--glass-border);
 }
 
-.article-card__img--logo {
+.article-card__img.article-card__img--logo {
   width: min(80%, 280px);
   height: auto;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 .article-post__hero--logo {
@@ -1290,14 +1291,19 @@ img {
 }
 
 .article-card__thumb:has(.article-card__img) {
-  aspect-ratio: auto;
   background: var(--color-bg-alt);
 }
 
+/* All news thumbnails share the 16:10 frame; photos are cropped to fill it */
 .article-card__img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
+  object-fit: cover;
+}
+
+.article-card__img--nekomaneki {
+  object-position: center 72%;
 }
 
 .article-card__thumb-bg {
