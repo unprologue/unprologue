@@ -952,9 +952,6 @@ img {
   background-image: none;
 }
 
-.service-panel--nprologue .service-panel__media {
-  background-image: none;
-}
 
 .service-panel--consultation .service-panel__media {
   background-image: none;
@@ -971,11 +968,6 @@ img {
   object-position: center 72%;
 }
 
-.service-panel--nprologue .service-panel__image {
-  opacity: 0.72;
-  transform: scale(1);
-  object-position: center 22%;
-}
 
 .service-panel--consultation .service-panel__image {
   opacity: 0.72;
@@ -991,9 +983,6 @@ img {
   opacity: 0.28;
 }
 
-.service-panel--nprologue .service-panel__media::after {
-  opacity: 0.28;
-}
 
 .service-panel--consultation .service-panel__media::after {
   opacity: 0.28;
@@ -1035,10 +1024,6 @@ img {
   opacity: 1;
 }
 
-.service-panel--nprologue:hover .service-panel__media,
-.service-panel--nprologue.is-active .service-panel__media {
-  opacity: 1;
-}
 
 .service-panel--consultation:hover .service-panel__media,
 .service-panel--consultation.is-active .service-panel__media {
@@ -1055,10 +1040,6 @@ img {
   opacity: 1;
 }
 
-.service-panel--nprologue:hover .service-panel__image,
-.service-panel--nprologue.is-active .service-panel__image {
-  opacity: 1;
-}
 
 .service-panel--consultation:hover .service-panel__image,
 .service-panel--consultation.is-active .service-panel__image {
@@ -1336,9 +1317,6 @@ img {
   background: linear-gradient(145deg, #d0d0d0 0%, rgba(164, 180, 164, 0.4) 50%, #e8e8e8 100%);
 }
 
-.article-card__thumb-bg--nprologue {
-  background: linear-gradient(145deg, #2a2a2a 0%, #5a5a5a 40%, rgba(196, 164, 164, 0.35) 100%);
-}
 
 .article-card__meta {
   font-family: var(--font-en);
