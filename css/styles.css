@@ -364,6 +364,15 @@ img {
   min-height: 1.3em;
 }
 
+.hero__brand {
+  display: block;
+  margin-top: 6px;
+  font-size: clamp(0.9rem, 2.2vw, 1.05rem);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--color-text);
+}
+
 .hero__motto-line--typing::after {
   content: '';
   display: inline-block;
